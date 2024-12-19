@@ -1,10 +1,4 @@
-@charset "UTF-8";/*!
- * animate.css - https://animate.style/
- * Version - 4.1.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2020 Animate.css
- */
+@charset "UTF-8";
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -108,7 +102,7 @@
     opacity: 0;
   }
 }
-/* Attention seekers  */
+
 @-webkit-keyframes bounce {
   from,
   20%,
@@ -219,7 +213,7 @@
   -webkit-animation-name: flash;
   animation-name: flash;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -632,7 +626,7 @@
   -webkit-animation-name: tada;
   animation-name: tada;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes wobble {
   from {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1032,7 +1026,7 @@
   -webkit-animation-name: backInUp;
   animation-name: backInUp;
 }
-/* Back exits */
+
 @-webkit-keyframes backOutDown {
   0% {
     -webkit-transform: scale(1);
@@ -2176,7 +2170,7 @@
   -webkit-animation-name: fadeInBottomRight;
   animation-name: fadeInBottomRight;
 }
-/* Fading exits */
+
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
